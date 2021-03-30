@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-left: 30px;
+    align-items: flex-end;
+    }
+
+
+body{
+
+    background-color:#1F82BF;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 600px;
+    }
+
+nav{
+     display: flex;
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+background-color: #F29F05;
+height: 80px;
+align-items: center;
+
+}
+.logo{
+display: flex;
+padding: 25px;
+    justify-content: flex-start;
+}
+
+.menu{
+display: flex;
+align-items: center;
+margin-right: 50px;
+}
+
+a{
+margin-right: 10px;
+text-decoration: none;
+}
+
+a:visited{
+
+    color:black;
+}
+
+main{ display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.containerfotos{
+
+    display:flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.card{
+     width: 300px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card img{
+
+    width: 300px;
+    height: 300px;
+}
+
+.rodape{
+margin-top: 1rem;
+justify-content: center;
+align-items: center;
+display: flex;
+color:#F29F05;
+font-weight: 400;
+
+}
+.buton{
+    background-color: #B3ECF2;
+    color:black;
+    width: 150px;
+    height: 40px;
+    border:3px #1F82BF solid;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:426px) {
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.containerfotos{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+}
+
+@media screen and (min-width:427px) and (max-width:769px) {
+
+    .containerfotos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+    
+
+    
+   
